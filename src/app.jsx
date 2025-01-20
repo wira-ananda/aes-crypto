@@ -1,13 +1,12 @@
-import { useState } from "preact/hooks";
-import preactLogo from "./assets/preact.svg";
-import viteLogo from "/vite.svg";
-import AesApp from "./AesApp";
 import "./app.css";
+import ElGamal from "./components/ElGamal";
+import RSA from "./components/RSA";
 
 export function App() {
   return (
     <>
-      <AesApp />
+      <RSA />
+      <ElGamal />
     </>
   );
 }
